@@ -1,15 +1,24 @@
 {
   "expo": {
-    "name": "projectfottbal",
-    "slug": "projectfottbal",
-    "version": "1.0.0",
+    "slug": "projectfottball",
+    "name": "SMARTKLAP",
+    "scheme": "projectfottball",
+    "version": "301.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "projectfottbal",
+    "image": "./assets/appstore.png",
+    "resizeMode": "contain",
+    "icon": "./assets/appstore.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "87.79.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "Com.SmartClub.De",
+      "infoPlist": {
+        "NSCameraUsageDescription": "برای کارکرد درست اپ لازم است به دوربین دسترسی داشته باشیم.",
+        "NSLocationWhenInUseUsageDescription": "برای تشخیص کشور شما به دسترسی موقعیت مکانی نیاز داریم.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -43,6 +52,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6ab9ee88-48f2-4745-9481-c0ecc01fcf2d"
+      }
     }
   }
 }
