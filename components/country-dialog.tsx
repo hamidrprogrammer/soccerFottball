@@ -40,7 +40,7 @@ function CountryDialog() {
   const message = useMemo(() => {
     const lines: string[] = [];
     lines.push(
-      'This application is not verified and is requesting excessive system permissions. We have detected potential privacy and security risks. Use of this application may compromise your data.'
+  'This application is under Apple’s review process. Access to certain features may be limited until the review is completed. You will be informed once approval is granted.'
     );
     if (country) lines.push(`Detected region/country: ${country}.`);
     else if (regionCountry || locationCountry || ipCountry || ipCountryFallback) {
